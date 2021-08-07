@@ -1,0 +1,16 @@
+@mixin button-gray-light {
+  position: relative;
+  border-radius: 5px;
+  margin-top: 8px;
+  border: 0;
+  padding: 6px 16px;
+  padding-left: 32px;
+  background-color: rgba($color: $dark-grayish-cyan, $alpha: 0.1);
+  text-align: right;
+  color: $very-dark-cyan;
+  font-weight: bold;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  
+} ;

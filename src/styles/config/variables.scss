@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;500;700&display=swap');
+$devices: (
+    'mobile': 375px,
+    'desktop': 1440px
+);
+$background-color: hsla(172, 81%, 55%, 0.315);
+$strong-cyan: hsl(172, 81%, 55%);
+
+$very-dark-cyan: hsl(183, 100%, 15%);
+$dark-grayis-cyan: hsl(186, 14%, 43%);
+$dark-grayish-cyan: hsl(184, 14%, 56%);
+$light-grayish-cyan: hsl(185, 41%, 84%);
+$light-grayish-cyan: hsl(189, 41%, 97%);
+$white: hsl(0, 0%, 100%);
+
+$font-family: 'Space Mono', monospace;
+
+$fontSize: 24px

@@ -1,0 +1,51 @@
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select,
+body {
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: $fontSize;
+}
+body {
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: $background-color;
+}
+
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+button,
+input,
+textarea,
+select {
+  color: inherit;
+}
+
+button{
+  cursor: pointer;
+}
+
+input:focus-visible{
+  outline: 2px solid $strong-cyan;
+}

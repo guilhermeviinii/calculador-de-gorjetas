@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="config-calculator">
+        <div class="bill">
+          <span>Bill</span>
+          <div class="input-icon">
+            <input type="number" class="input-bill" placeholder="0" />
+            <i class="fas fa-dollar-sign"></i>
+          </div>
+        </div>
+        <div class="select-trip">
+          <span>Select tip %</span>
+          <div class="porcentuals">
+            <button type="button" class="porcent-button">5%</button>
+            <button type="button" class="porcent-button">10%</button>
+            <button type="button" class="porcent-button">15%</button>
+            <button type="button" class="porcent-button">25%</button>
+            <button type="button" class="porcent-button">50%</button>
+            <input type="number" class="input-custom" placeholder="Custom" />
+          </div>
+        </div>
+        <div class="peoples">
+          <div class="peoples-text">
+            <span>Number of People</span>
+            <div class="invalid-text">Can't be 0</div>
+          </div>
+          <div class="input-icon">
+            <input type="number" class="input-people" placeholder="0" />
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+      </div>
+      <div class="results-calculator">
+        <div class="tips-amount">
+          <div class="tip-amount-text">
+            <strong>Tip Amount</strong>
+            <span>/ person</span>
+          </div>
+          <strong class="total-tip-amount">$0,00</strong>
+        </div>
+        <div class="total-amount">
+          <div class="total-amount-text">
+            <strong>Total</strong>
+            <span>/ person</span>
+          </div>
+          <strong class="total">$0,00</strong>
+        </div>
+        <button type="button" class="reset">RESET</button>
+      </div>
+    </div>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="./bundle.js"></script>
+  </body>
+</html>
