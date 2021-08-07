@@ -28,7 +28,4 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 - HTML
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+Desenvolvido por Guilherme Vincius
